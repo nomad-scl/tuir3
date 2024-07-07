@@ -28,7 +28,7 @@ object QAMenu {
   }
 
   private def subMenu2(app: AppData, key: Key): (AppData, Option[InputHandlers]) = key.keyEvent().code() match {
-    case _: KeyCode.Esc => app.menu.subMenu = "2";
+    case _: KeyCode.Esc => app.menu.subMenu = "2"
       val tmp = getFromJournalByDate(UI.Global.nowDate);
       (app.copy(pop = PopMode.NoPop, menu = MenuSelector.Journaling, input_mode = Normal, journal = if tmp.isEmpty then Array(emptyEntry) else tmp.toArray),
         Some(JournalNormalMode))
