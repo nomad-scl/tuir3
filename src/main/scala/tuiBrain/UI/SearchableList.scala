@@ -4,9 +4,8 @@ import tui.*
 import tui.crossterm.Event.Key
 import tui.crossterm.KeyCode
 import tui.widgets.{BlockWidget, ListWidget, ParagraphWidget, TableWidget}
-//import tuiBrain.Handelers.getSelected
 import tuiBrain.UI.Global.{TopicBolder, TopicBrake}
-import tuiBrain.{AppData, CurPos, DeleteMe, ExitStatus, InputMode, MenuSelector, PopMode}
+import tuiBrain.{AppData, CurPos, ExitStatus, InputMode, MenuSelector, PopMode}
 
 object SearchableList {
   case class StatefulList[T](
@@ -74,36 +73,12 @@ object SearchableList {
     input
   }
 
-//  def handleInput(app : AppData, key : Key, listofItems : StatefulList[String], getSelectedItem : AppData => AppData): AppData = {
   def handleInput(app : AppData, key : Key, getSelectedItem : AppData => AppData): AppData = {
     key.keyEvent().code() match {
-//      case c : KeyCode.Char if app.menu.subMenu == "2" =>
-////        SearchableList.listOfString = SearchableList.StatefulList(items = app.topics.filter(_.contains(app.input + c.c)))
-////        app.copy(input = app.input + c.c)
-//        app.copy(input = app.input + c.c, filteredTopics = StatefulList(items = app.topics.filter(_.contains(app.input + c.c))))
-//
-//    case _: KeyCode.Backspace if app.menu.subMenu == "2" =>
-////      val k = if app.input.nonEmpty then app.copy(input = app.input.dropRight(1)) 
-////      else app.copy(input = "")
-////      SearchableList.listOfString = SearchableList.StatefulList(items = app.topics.filter(_.contains(k.input)))
-////      k
-//      val k = if app.input.nonEmpty then app.input.dropRight(1)  else ""
-//      app.copy(input = k, filteredTopics = StatefulList(items = app.topics.filter(_.contains(k))))
-
-//      case _: KeyCode.Up => app.filteredTopics.previous(); app
-//      case _: KeyCode.Down => app.filteredTopics.next(); app
-
-//      case _: KeyCode.Enter if app.input_mode == InputMode.Editing => getSelectedItem(app)
       case _: KeyCode.Enter if app.menu.subMenu == "2" => getSelectedItem(app)
       case _: KeyCode.Enter if app.menu.subMenu == "1" =>
         val kk = getSelectedItem(app)
-        DeleteMe.tempFilteredQAs =
-          DeleteMe.tempQAs.filter(z => z._1.contains(TopicBrake + kk.input + TopicBolder + TopicBrake) || z._2.contains(TopicBrake + kk.input + TopicBolder + TopicBrake));
-        TableMaker.tableOfString = TableMaker.TableData(state = TableWidget.State(), items = DeleteMe.tempFilteredQAs.map(Array(_, _)))
         kk
-
-//      case _: KeyCode.Esc => app.copy(pop = PopMode.NoPop, input = "")
-
     }
   }
 }

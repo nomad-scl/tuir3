@@ -54,7 +54,6 @@ object GlobalDB{
     mySettings(str)
   }
 
-//  private val databasePath = "/home/rev/testDB.db"
   val databasePath : mySettings = readYaml[mySettings](yamlFilePath, default)
 
   given Resource[IO, HikariTransactor[IO]] = for {
@@ -107,7 +106,6 @@ object GlobalDB{
     def dater(colName : String) : Fragment = s ++ Fragment.const(colName) ++ fr"DATE"
 
     def where(colName : String, value : String) : Fragment = s  ++ fr"WHERE" ++ Fragment.const(colName) ++ fr"=" ++ Fragment.const(value)
-//    def whereT(colName : String, value : String) : Fragment = s  ++ fr"WHERE" ++ Fragment.const(colName) ++ fr"= '" ++ Fragment.const(value) ++ fr"'"
     def whereT(colName : String, value : String) : Fragment = s  ++ fr"WHERE" ++ Fragment.const(colName) ++ fr"=" ++ Fragment.const("\'" + value + "\'")
     def like(colName : String, value : String) : Fragment = s  ++ fr"WHERE" ++ Fragment.const(colName) ++ fr"LIKE" ++ Fragment.const("\'%" + value + "%\'")
 

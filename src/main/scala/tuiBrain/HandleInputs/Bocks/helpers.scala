@@ -1,13 +1,10 @@
 package tuiBrain.HandleInputs.Bocks
 
-import org.sqlite.date.DateFormatUtils
 import tui.crossterm.KeyCode
 import tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}
 import tuiBrain.UI.Global.*
 
-import java.time.format.DateTimeFormatter
 import java.util.Date
-import java.time.{LocalDate, ZoneId}
 import scala.annotation.tailrec
 
 object helpers {

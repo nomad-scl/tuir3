@@ -6,7 +6,7 @@ object PopMode{
   case object Topic extends PopMode
   case object YesNo extends PopMode
   case object Editor extends PopMode //a popUp that can be edited
-  case object Event extends PopMode {  //a popup for choosing the event date
+  case object Event extends PopMode {
     var action : Int = 0
   }
   case object Card extends PopMode {

@@ -46,7 +46,7 @@ object TopicSelecting {
   : (AppData, Option[InputHandlers]) =  key.keyEvent().code() match {
       case _: KeyCode.Up => app.filteredTopics.previous(); (app, Some(SelectTopicEditJournal))
       case _: KeyCode.Down => app.filteredTopics.next(); (app, Some(SelectTopicEditJournal))
-      case _: KeyCode.Esc => esc(app, result)//(app.copy(pop = PopMode.NoPop, input = ""), Some(result))
+      case _: KeyCode.Esc => esc(app, result)
 
       case c : KeyCode.Char if allowedChars(c.c()) => (filterList(app, app.input + c.c), Some(SelectTopicEditJournal))
 

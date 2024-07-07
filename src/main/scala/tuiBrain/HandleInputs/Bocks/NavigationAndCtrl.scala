@@ -28,7 +28,7 @@ object NavigationAndCtrl {
 
       case c: KeyCode.Char if c.c == 'K' =>
         MenuSelector.QA.subMenu = "2"
-        (app.copy(menu = MenuSelector.QA, pop = PopMode.Topic), Some(SelectTopics4QA)) //qa card menu
+        (app.copy(menu = MenuSelector.QA, pop = PopMode.Topic), Some(SelectTopics4QA))
 
       case _ => (app, None)
   }

@@ -1,8 +1,8 @@
 package tuiBrain.UI
 
-import tui.{Borders, Color, Constraint, Modifier, Rect, Span, Spans, Style, Text}
+import tui.{Borders, Color, Constraint, Modifier, Rect, Spans, Style, Text}
 import tui.widgets.{BlockWidget, TableWidget}
-import tuiBrain.UI.Global.{TopicBolder, TopicBrake, topicModifier, topicer, topicerLines}
+import tuiBrain.UI.Global.{topicer, topicerLines}
 
 object TableMaker {
   val items: Array[Array[String]] = Array(

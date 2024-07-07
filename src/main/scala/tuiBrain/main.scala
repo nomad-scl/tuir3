@@ -1,11 +1,9 @@
 package tuiBrain
 
 import tui.*
-import tuiBrain.GlobalDB.insert
 import tuiBrain.UI.SearchableList
 import tuiBrain.UI.SearchableList.StatefulList
 import tuiBrain.brainDB.getFromJournalByDate
-import tuiBrain.GlobalDB.run
 import tuiBrain.HandleInputs.Handlers.JournalNormalMode
 
 import java.time.LocalDate

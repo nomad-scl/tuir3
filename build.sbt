@@ -25,7 +25,6 @@ lazy val dbAccess = (project in file("dbAccess")).settings(
     "com.zaxxer" % "HikariCP" % "5.1.0",
     "org.xerial" % "sqlite-jdbc" % "3.46.0.0",
     "org.slf4j" % "slf4j-api" % "2.1.0-alpha1",
-//    "org.slf4j" % "slf4j-simple" % "2.1.0-alpha1",
     "org.slf4j" % "slf4j-nop" % "2.1.0-alpha1",
 
     "org.yaml" % "snakeyaml" % "2.2",

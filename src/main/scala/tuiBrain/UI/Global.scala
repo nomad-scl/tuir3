@@ -13,7 +13,6 @@ object Global {
 
   val TopicBrake = "<@%>"
   val topicModifier: Modifier = Modifier(Modifier.UNDERLINED.bits + Modifier.BOLD.bits + Modifier.REVERSED.bits)
-//  val TopicBolder = "~^!^~"
   val TopicBolder = "!!@@!!"
 
   val qaModifier: Modifier = Modifier(Modifier.UNDERLINED.bits + Modifier.ITALIC.bits + Modifier.REVERSED.bits)

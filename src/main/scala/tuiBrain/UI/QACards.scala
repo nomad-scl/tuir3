@@ -1,10 +1,7 @@
 package tuiBrain.UI
 
 import tui.*
-import tui.crossterm.Event.Key
-import tui.crossterm.KeyCode
 import tui.widgets.{BlockWidget, ParagraphWidget}
-import tuiBrain.{AppData, CurPos, ExitStatus, MenuSelector, PopMode}
 import tuiBrain.UI.Global.*
 
 object QACards {

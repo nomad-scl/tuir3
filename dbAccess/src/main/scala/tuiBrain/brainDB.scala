@@ -11,16 +11,11 @@ import cats.implicits.*
 
 import java.text.SimpleDateFormat
 import java.util.Date
-//import cats.implicits.*
 import doobie.*
-//import doobie.implicits.*
-//import doobie.hikari.*
-//import com.zaxxer.hikari.HikariConfig
 import doobie.util.fragment
 import cats.effect.unsafe.implicits.global
 
 object brainDB {
-//  given  Meta[JournalEntry] = deriving
   private def defTables(using transactor: Resource[IO, HikariTransactor[IO]]) : List[String] = {
     val topics : Fragment = tableINE("topics").nl.inter("ID").pk.ai.nx
       .text("topicName").nl.fin
@@ -30,7 +25,6 @@ object brainDB {
       .dater("dateadded").notNull.nx
       .dater("dateupdated").notNull.nx
       .text("entrytype").notNull.nx
-//      .dater("notifydate").nx
       .inter("msglevel").nx
       .text("messages").notNull.nx
       .text("topics").notNull.nl

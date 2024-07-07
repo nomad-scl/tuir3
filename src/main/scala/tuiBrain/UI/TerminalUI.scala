@@ -74,7 +74,7 @@ object TerminalUI {
           .replace(TopicBolder,"").replace(TopicBrake,"").replace(QABoundary,"?").replace(eventBoundary, "").replace(eventFinder,"").length
         val c3 = if app.getCurPosText.isEmpty || (app.getCurPosText(0) != '[') then 4 else 1
         f.setCursor(
-          x = chk(1).x + cnt + c3 + (3 * app.getCurPosLevel), //(app.curPos.x + 3) + cnt,
+          x = chk(1).x + cnt + c3 + (3 * app.getCurPosLevel),
           y = chk(1).y + app.curPos.y + 1 - delCnt
         )
     }
@@ -200,27 +200,12 @@ object TerminalUI {
       case MenuSelector.Journaling => journal(f, app, chks)
                                       popTopic(app, f, app.input + "\n\n\n        [Y]es                  [N]o\n\n", "Confirm new topic")
 
-      case MenuSelector.QA if app.menu.subMenu == "0" => val par = SearchableList.makeTextBlock("Choose one of the following:\n\n\n        [V]iew stored QAs\n\n        [B]egin a QA run\n\n", title = "")
-                              val popArea = PopUp.makePopUp(chks(1), 30, 20)
-                              f.renderWidget(ClearWidget, popArea)
-                              f.renderWidget(par, popArea)
-
-      case MenuSelector.QA if (app.menu.subMenu == "1") && (app.pop == PopMode.Topic) => popTopic(app, f)
-      case MenuSelector.QA if (app.menu.subMenu == "1") && (app.pop == PopMode.YesNo) =>
-        popTopic(app, f, popMessage = "Do you want to edit the Question or the Answer?\n\n\n         Q[U]estion        [A]nswer", percX = 30, percY = 25)
-
-      case MenuSelector.QA if (app.menu.subMenu == "1") && (app.pop == PopMode.NoPop) =>
-        val r = TableMaker.makeTable(TableMaker.tableOfString, Array("Questions", "Answers"), chks(1))
-        f.renderStatefulWidget(r, chks(1))(TableMaker.tableOfString.state)
 
       case MenuSelector.QA if app.menu.subMenu == "2" => popTopic(app, f,
         s"Add this topic : ${app.input} to question list?\n\n\n        [Y]es and add another topic\n\n        [N]o\n\n        [G]o to the questions", "Confirm QA topic",
         percY = 40)
       case MenuSelector.QA if (app.menu.subMenu == "3") && (app.pop != PopMode.Card) => popTopic(app, f, s"How many questions do you want?\n\n[Enter a number or A for all of them]", "Number of questions")
       case MenuSelector.QA if (app.menu.subMenu == "3") && (app.pop == PopMode.Card) => makeCard(app, f)
-
-      case MenuSelector.QA if (app.menu.subMenu == "4") && (app.pop == PopMode.Editor) => popEditor(app, f)
-      case MenuSelector.QA if (app.menu.subMenu == "4") && (app.pop == PopMode.YesNo) => popTopic(app, f, "Are you sure you want to delete this question?\n\n      [Y]es              [N]o", percY = 25)
 
       case _ => ()
     }
