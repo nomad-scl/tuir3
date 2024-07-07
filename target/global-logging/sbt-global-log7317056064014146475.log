@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(be5b6aec-0f0b-47e5-a089-45eb4af6f50e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/rev/Documents/scala/tuier3/dbAccess/target/scala-3.3.3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 24 Scala sources to /home/rev/Documents/scala/tuier3/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.HandleInputs.Handlers.QAMenu$.subMenu2(QAMenu.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.HandleInputs.Handlers.QAMenu$.tuiBrain$HandleInputs$Handlers$QAMenu$$$qaManage(QAMenu.scala:24)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.HandleInputs.Handlers.QAMenu$SelectTopics4QA$.$anonfun$1(QAMenu.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.HandleInputs.O$$anon$1.handle(InputHandlers.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.HandleInputs.Handlers.QAMenu$SelectTopics4QA$.handleInput(QAMenu.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.Handelers$.run_app2(Handelers.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.main$package$.main$$anonfun$1(main.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tui.withTerminal$.apply(withTerminal.scala:16)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.main$package$.main(main.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at tuiBrain.main.main(main.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:568)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:94)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:187)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:121)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1988)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1927)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:367)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:840)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 0[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 14 s, completed Jul 2, 2024, 3:41:14 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

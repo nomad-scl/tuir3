@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/dbAccess/src/main/scala/tuiBrain/brainDB.scala:109:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m109 |[0m    rows.foreach([36mzzz[0m => println(zzz._2.messages))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                ^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mvalue messages is not a member of tuiBrain.JournalEntry - did you mean _2.message?[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

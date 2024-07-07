@@ -1,0 +1,369 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:17:36 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m                    journal: [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)] = Array(emptyEntry),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                    ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                    Not found: type EditStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:17:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m                    journal: [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)] = Array(emptyEntry),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                            Not found: type JournalEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:28:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m  [33mdef[0m [36meditStat[0m : [35mEditStatus[0m = [33mthis[0m.journal([33mthis[0m.curPos.y)._1 [33mmatch[0m {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                 ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                 Not found: type EditStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:29:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m    [33mcase[0m Insert => Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:29:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m    [33mcase[0m Insert => Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                   ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                   Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:30:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m30 |[0m    [33mcase[0m _ => Update([33mthis[0m.getEditStatDelList, [33mthis[0m.getEditStatAddList)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m              ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:53:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m  [33mdef[0m [36mdeleteCurrent[0m() : [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)] =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                               ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                               Not found: type EditStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:53:43 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m  [33mdef[0m [36mdeleteCurrent[0m() : [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)] =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                           ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                           Not found: type JournalEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:56:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m      [33mthis[0m.journal([33mthis[0m.curPos.y) = (Delete([33mthis[0m.getEditStatDelList), [33mthis[0m.journal([33mthis[0m.curPos.y)._2)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: Delete[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:62:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m      [33mcase[0m Update(None, z) => Update(Some(Set(tp)), z)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:62:30 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m      [33mcase[0m Update(None, z) => Update(Some(Set(tp)), z)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                              ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                              Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:63:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m      [33mcase[0m Update(Some(s), z) => Update(Some(s + tp), z)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:63:33 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m      [33mcase[0m Update(Some(s), z) => Update(Some(s + tp), z)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                 ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                 Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:63:47 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m63 |[0m      [33mcase[0m Update(Some(s), z) => Update(Some(s + tp), z)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                             ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                          value + is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:64:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m      [33mcase[0m Insert => Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m           ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m           Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:64:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m64 |[0m      [33mcase[0m Insert => Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:71:61 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m    [33mval[0m [36mk[0m = [33mif[0m [33mthis[0m.journal([33mthis[0m.curPos.y)._1 == Insert [33mthen[0m Insert [33melse[0m Update([33mthis[0m.getEditStatDelList, [33mthis[0m.getEditStatAddList.map(_ + tp))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                             ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                       Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:71:73 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m    [33mval[0m [36mk[0m = [33mif[0m [33mthis[0m.journal([33mthis[0m.curPos.y)._1 == Insert [33mthen[0m Insert [33melse[0m Update([33mthis[0m.getEditStatDelList, [33mthis[0m.getEditStatAddList.map(_ + tp))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                         ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                       Not found: Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:92:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m92 |[0m    [33mcase[0m Insert => None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:93:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m93 |[0m    [33mcase[0m DoNothing => None[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m         Not found: DoNothing[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:94:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m94 |[0m    [33mcase[0m u : Update => u.del[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m             ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m             Not found: type Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:95:13 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m95 |[0m    [33mcase[0m d : Delete => d.del[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m             ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m             Not found: type Delete[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:100:12 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    [33mcase[0m u: Update => u.add[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m            ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m            Not found: type Update[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/AppData.scala:17:71 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m                    journal: [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)] = Array(emptyEntry),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                       ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/NavigationAndCtrl.scala:4:49 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, MenuSelector, PopMode, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                 ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                            value messageTypes is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/NavigationAndCtrl.scala:59:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m        app.setCurText(spl._1 + QABoundary + spl._2, messageTypes.qa)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                     ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                  ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mvalue Delete is not a member of tuiBrain - did you mean tuiBrain.DeleteMe?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:42 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                          ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                              value EditStatus is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:54 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                      ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                  value Insert is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:62 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                              ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                            value JournalEntry is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:76 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                            ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                              value emptyEntry is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:5:88 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, EditStatus, Insert, JournalEntry, emptyEntry, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                        ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                            value messageTypes is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:96:54 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m      app.setCurText(cr._1.substring([31m0[0m, pos) + cr._2, messageTypes.text)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                      ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:99:65 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m      app.setCurText(cr._1.dropRight(QABoundary.length) + cr._2, messageTypes.text)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                 ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:124:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m    [33mval[0m [36mmmm[0m = [33mnew[0m [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)](app.journal.length + [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                         ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                         Not found: type EditStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:124:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m    [33mval[0m [36mmmm[0m = [33mnew[0m [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)](app.journal.length + [31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                     Not found: type JournalEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:126:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m    mmm(app.curPos.y + [31m1[0m) = (Insert, JournalEntry(-[31m1[0m,app.getNewOrder, Date(), Date(), [31m"Text"[0m, [31m0[0m, [31m""[0m, [31m""[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                             ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                             Not found: Insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/helpers.scala:126:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m    mmm(app.curPos.y + [31m1[0m) = (Insert, JournalEntry(-[31m1[0m,app.getNewOrder, Date(), Date(), [31m"Text"[0m, [31m0[0m, [31m""[0m, [31m""[0m))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                     ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                     Not found: JournalEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/popUps.scala:6:49 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m[33mimport[0m tuiBrain.{AppData, MenuSelector, PopMode, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                 ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                            value messageTypes is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/popUps.scala:40:103 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m        app.setCurText(cr._1 + eventBoundary + app.input([31m0[0m) + k + eventFinder + eventBoundary + cr._2, messageTypes.event)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                       ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/popUps.scala:67:92 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m67 |[0m            app.setCurText(cr._1 + eventBoundary + k + eventFinder + eventBoundary + cr._2, messageTypes.event)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                            ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Bocks/popUps.scala:89:90 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m89 |[0m          app.setCurText(cr._1 + eventBoundary + k + eventFinder + eventBoundary + cr._2, messageTypes.event)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                          ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                 Not found: messageTypes[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/QAMenu.scala:6:71 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, DeleteMe, MenuSelector, PopMode, UI, emptyEntry, loadDB}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                       ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                              value emptyEntry is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/QAMenu.scala:34:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m34 |[0m      [33mval[0m [36mtmp[0m = getFromJournalByDate(UI.Global.nowDate);[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/QAMenu.scala:35:126 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m35 |[0m      (app.copy(pop = PopMode.NoPop, menu = MenuSelector.Journaling, input_mode = Normal, journal = [33mif[0m tmp.isEmpty [33mthen[0m Array(emptyEntry) [33melse[0m tmp.toArray),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                                              ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/QAMenu.scala:97:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m97 |[0m      [33mval[0m [36mmm[0m = getQAs(app.tempBuffer.map(_._2)).toArray[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type Array[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/QAMenu.scala:113:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m      [33mval[0m [36mmm[0m = getQAs(app.tempBuffer.map(_._2), n2).toArray[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mtuiBrain.EditStatus is not defined in inferred type Array[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:4:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, MenuSelector, PopMode, UI, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                     ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                              value emptyEntry is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:36:8 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m36 |[0m    [33mval[0m [36mtmp[0m = getFromJournalByDate(UI.Global.nowDate);[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:37:124 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m37 |[0m    (app.copy(pop = PopMode.NoPop, menu = MenuSelector.Journaling, input_mode = Normal, journal = [33mif[0m tmp.isEmpty [33mthen[0m Array(emptyEntry) [33melse[0m tmp.toArray),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                                            ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:26:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m      [33mval[0m [36mtmp[0m = [33mif[0m [31m"^\\d{4}-(0[1-9]|1[0-2]|[0-9])-(0[1-9]|[12][0-9]|3[01])$"[0m.r.matches(app.input) [33mthen[0m getFromJournalByDate(app.input)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m      [33melse[0m List()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:28:103 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m      (app.copy(pop = PopMode.NoPop, input = [31m""[0m, load = app.input, journal = [33mif[0m tmp.isEmpty [33mthen[0m Array(emptyEntry) [33melse[0m tmp.toArray), Some(res))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                       ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:31:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m      [33mval[0m [36mtmp[0m = getFromJournalByTopic(s)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/TopicView.scala:32:115 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m      (app.copy(pop = PopMode.NoPop,input_mode = Normal ,input = [31m""[0m, load = s, journal = [33mif[0m tmp.isEmpty [33mthen[0m Array(emptyEntry) [33melse[0m tmp.toArray), Some(res))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                                   ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:4:34 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, DoNothing, Insert, MenuSelector, PopMode, Update, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                  ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mvalue Delete is not a member of tuiBrain - did you mean tuiBrain.DeleteMe?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:4:42 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, DoNothing, Insert, MenuSelector, PopMode, Update, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                          ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                               value DoNothing is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:4:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, DoNothing, Insert, MenuSelector, PopMode, Update, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                     ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                  value Insert is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:4:84 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, DoNothing, Insert, MenuSelector, PopMode, Update, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                    ^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                  value Update is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:4:92 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, Delete, DoNothing, Insert, MenuSelector, PopMode, Update, emptyEntry}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                            ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                              value emptyEntry is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:90:12 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m90 |[0m        [33mval[0m [36mkk[0m = [33mif[0m [31m"^\\d{4}-(0[1-9]|1[0-2]|[0-9])-(0[1-9]|[12][0-9]|3[01])$"[0m.r.matches(app.load) [33mthen[0m getFromJournalByDate(app.load)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m            [33melse[0m List()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:96:62 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m          journal = [33mif[0m kk.nonEmpty [33mthen[0m kk.toArray [33melse[0m Array(emptyEntry),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                              ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                   Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:102:18 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m        [33melse[0m List(emptyEntry)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                  ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                  Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/HandleInputs/Handlers/msgBoxes.scala:108:62 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m          journal = [33mif[0m kk.nonEmpty [33mthen[0m kk.toArray [33melse[0m Array(emptyEntry),[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                              ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                                 Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/UI/PopUp.scala:7:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m[33mimport[0m tuiBrain.{AppData, CurPos, DeleteMe, PopMode, messageTypes}[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                     ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                            value messageTypes is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:4:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m4 |[0m[33mimport[0m tuiBrain.GlobalDB.insert[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value GlobalDB is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:8:16 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m[33mimport[0m tuiBrain.GlobalDB.run[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value GlobalDB is not a member of tuiBrain[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:29:38 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m[33mdef[0m [36mloadDB[0m() : ([35mArray[0m[[35mString[0m], [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)]) = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                      ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                      Not found: type EditStatus[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:29:50 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m29 |[0m[33mdef[0m [36mloadDB[0m() : ([35mArray[0m[[35mString[0m], [35mArray[0m[([35mEditStatus[0m, [35mJournalEntry[0m)]) = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                  ^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                            Not found: type JournalEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:31:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m31 |[0m  [33mval[0m [36mres[0m = getFromJournalByDate(UI.Global.nowDate)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mtuiBrain.EditStatus is not defined in inferred type List[(tuiBrain.EditStatus, tuiBrain.JournalEntry)][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBrain/main.scala:32:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m  (topics, [33mif[0m res.isEmpty [33mthen[0m Array(emptyEntry) [33melse[0m res.toArray)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: emptyEntry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m70 errors found[0m

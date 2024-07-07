@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(0298ab34-60ee-4c0b-bc20-4d9cbfdc426c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/rev/Documents/scala/tuier3/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/rev/Documents/scala/tuier3/src/main/scala/tuiBtrain/InputHandeling.scala:152:115 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m152 |[0m    [33mcase[0m c: KeyCode.Char [33mif[0m ((c.c.toLower == [31m'y'[0m) || (c.c.toLower == [31m'n'[0m)) && (app.pop == PopMode.YesNo) => println([31m"qqq"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                                                                                            ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                          Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                          Required: tuiBtrain.AppData2[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed 18 May 2024, 23:07:38[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

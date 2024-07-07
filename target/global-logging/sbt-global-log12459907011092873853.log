@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(99b50320-fc5d-4798-ac11-2aa60e57d8e8), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/rev/Documents/scala/tuier3/dbAccess/target/scala-3.3.3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 24 Scala sources to /home/rev/Documents/scala/tuier3/target/scala-3.3.3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
